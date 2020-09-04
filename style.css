@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&display=swap');
+
+/* global section */
+
+*{
+  margin:0;
+  padding:0;
+}
+a:hover,a{
+  text-decoration: none;
+  color:black;
+}
+
+.container{
+  
+  width:1000px;
+  margin:0 auto ;
+  margin-top:20px
+}
+
+body{
+  font-family: 'Playfair Display', serif;
+}
+h1, h2, h3, h4, h5, h6, p, span, input,button{
+
+font-family: 'Playfair Display', serif;
+}
+
+/* gloabal section end here */
+
+.header{
+  width:100%;
+   display: flow-root;
+}
+
+.mainheader{
+  width:100%;
+  float:left;
+  padding:20px 0;
+}
+
+.logo{
+  width:30%;
+float:left;
+}
+
+.menubar{
+  width:70%;
+float:right;
+text-align: right;
+}
+.menubar ul li{
+  margin-left: 70px ;
+}
+
+.menubar ul li  {
+  list-style: none;
+  display:inline-block;
+text-transform: uppercase ;
+}
+
+/* header section end here */
+
+/* banner section */
+
+.banner{
+  width:100%; 
+   display: flow-root;
+}
+
+/* .post h4{
+  text-transform: uppercase;
+    color: #b4ab9e;
+    margin:18px auto;
+    font-weight: 100;
+} */
+.postdetails{
+  margin:80px;
+}
+.postdetails span{
+  text-transform: uppercase;
+  color:#b4ad9e;
+  
+}
+
+.postdetails h2{
+  margin:25px auto;
+  font-weight: 600px;
+}
+
+.postdetails p{
+  margin-bottom: 25px;
+}
+
+
+/* banner section end */
+/* blog gallary section*/
+.bloggallary{
+  width:100%;
+   display: flow-root;
+}
+
+.gallary{
+  width:92%;
+  float: left;
+  margin:80px;
+}
+
+.left{
+  width:46%;
+  float: left;
+ margin:15px;
+ 
+}
+
+.right{
+  width:46%;
+  float: right;
+  margin:15px;
+ 
+}
+
+.postbody img{
+margin-bottom: 25px;
+}
+.postbody span{
+  text-transform: uppercase;
+  color:#b4ad9e;
+}
+
+.postbody h2{
+  margin:25px auto;
+  font-weight: 600px;
+}
+
+.postbody p{
+  margin-bottom: 25px;
+}
+/* gallary part end subsription start */
+
+.subscribe{
+  width:100%;
+  display: flow-root;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding:80px 0;
+  
+}
+
+
+.title{
+  
+ 
+  margin-bottom: 30px;
+}
+.title h1{
+  font-weight: 400;
+}
+ 
+
+.subcriptionform input{
+  width:30%;
+  padding :20px 0px;
+  border: none;
+  
+  background: transparent;
+  border-bottom: 2px solid black;
+  
+}
+
+form input:focus{ 
+outline: none;
+
+}
+form{
+  position:relative;
+}
+
+form  i{
+ position:absolute;
+ top:22px;
+ right:35%;
+}
+/* supcription end and load more start */
+.loadmore{
+  text-align: center;
+  padding:80px 0px;
+  display: flow-root;
+}
+
+.button button{
+  text-align: center;
+  padding: 20px 35px;
+  background: transparent;
+  border-radius: 0;
+  outline: none;
+  border:none;
+  border:1px solid black;
+  font-size: 18px;
+  font-weight: 18px;
+}
+
+/* end of button load more start footer */
+
+.footer{
+  width:100%;
+  background-color: #f0f0f0;
+  /* padding: 5px 0px; */
+  display: flow-root;
+
+}
+
+.footerbody{
+  width: 100%;
+  float: left;
+  padding:30px 0px;
+}
+.footerleft{
+  width:45%;
+  float: left;
+  text-align: left;
+
+}
+
+.footerright{
+  width: 45%;
+  float: right;
+  text-align: right;
+}
+
+.footerleft ul li,.footerright ul li{
+  list-style: none;
+  display: inline;
+  
+}
+
+.footerleft ul li{
+margin-right:20px ;
+}
+.footerright ul li{
+margin-left:20px ;
+}
